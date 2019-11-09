@@ -28,6 +28,7 @@ public class StringMethodsRecap {
 		
 		System.out.println("*********************************");
 		System.out.println(str2.replaceFirst(" ", ""));
+		
 	}
 
 }
