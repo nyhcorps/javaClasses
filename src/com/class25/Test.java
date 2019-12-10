@@ -10,9 +10,27 @@ public class Test {
 		emp.work();
 		emp.getPaid();
 
-		System.out.println("Creating an object of");
+		System.out.println("Creating an object of ScrumTeam class----");
+		ScrumTeam sm = new ScrumTeam();
+		sm.salary=90000;
+		Employee.companyName="Syntax";
+		emp.work();
+		emp.getPaid();
+		
+		System.out.println("---Creating an object of a Developer class-----");
+		Developer dev=new Developer();
+		dev.salary=130000;
+		dev.work();
+		dev.getPaid();
+		dev.code();
+		dev.artifacts="Sprint Backlog";
+		dev.ceremonies="Sprint Demo, Planning, Retro, Daily StandUp";
+		dev.attendScrumMeetings();
+		dev.employeeId=101;
+		//dev.employeeSsn not accessible
 	}
 
-	ScrumTeam sm = new ScrumTeam();
+	
+	
 
 }

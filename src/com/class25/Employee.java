@@ -2,10 +2,12 @@ package com.class25;
 
 public class Employee {
 	int salary;
-	static String companyName;
+	public static String companyName;
+	protected int employeeId;
+	private String employeeSsn;
 
 	void work() {
-		System.out.println(" I work in " + companyName + " company");
+		System.out.println("I work in " + companyName + " company");
 	}
 
 	void getPaid() {

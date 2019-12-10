@@ -2,10 +2,10 @@ package com.class25;
 
 public class ScrumTeam extends Employee{
 
-	String artifcts;
+	String artifacts;
 	String ceremonies;
 	
-	void attendScrumMeeting() {
+	void attendScrumMeetings() {
 		System.out.println("I attent "+ceremonies);
 	}
 }
