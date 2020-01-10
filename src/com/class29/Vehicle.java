@@ -9,6 +9,8 @@ public abstract class Vehicle {
 	public void stop() {
 		System.out.println("Vwhicle can stop");
 	}
+	
+	public abstract void speed();
 
 	public abstract void start();
 }
